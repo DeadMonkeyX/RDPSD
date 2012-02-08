@@ -1,0 +1,11 @@
+So this is a tool i created a while ago
+
+it simply finds all the "remote-connections" (RDP) to the server
+gives you a list, and you can kill them using the ID's 
+
+
+Tested on Win2k8, Win2k3 - also tested remotely from an Win2k3 => Win2k8 (aka remote killing the sessions on the Win2k8 server)
+
+
+This script is written in Batch (.bat) 
+

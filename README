@@ -1,12 +1,12 @@
-So this is a tool i created a while ago
 
-it simply finds all the "remote-connections" (RDP) to the server
-gives you a list, and you can kill them using the ID's 
+Remote Deskop Session Disconnect
 
+I made this tool for a while ago because i was working for a company who had problems with remote desktop sessions that dident get disconnected because of client crash and computers going to sleepmode.
 
-Tested on Win2k8, Win2k3 - also tested remotely from an Win2k3 => Win2k8 (aka remote killing the sessions on the Win2k8 server)
+I can simply find all the remote desktop connection sessions on the server, and give you a list with then. form there you can kill them using the ID number.
 
+This tool has been testet on Windows Server 2003 and Windows Server 2008R2 and even using it on a Windows 7 client to "access" the servers sessions however that requires the win7 machine is in a domain and you are running the tool as a domain administrator.
 
-This script is written in Batch (.bat) 
+The tool is written in batch/bat and can be easly modifyed if needed.
 
 

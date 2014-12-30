@@ -1,12 +1,12 @@
 Remote Deskop Session Disconnect
 =================================
 
-I made this tool for a while ago because i was working for a company who had problems with remote desktop sessions that dident get disconnected because of client crash and computers going to sleepmode.
+This tool will find all the remote desktop connection sessions on the server.
+and give you a list, where you can "kill" the sessions using the ID provided in the list.
 
-I can simply find all the remote desktop connection sessions on the server, and give you a list with then. form there you can kill them using the ID number.
+I have testet this on Windows Server 2003 and Windows Server 2008R2. and it even works from a windows 7 client to access the server - Keep in mind this requires Admin or Domain administrator Priviliges.
 
-This tool has been testet on Windows Server 2003 and Windows Server 2008R2 and even using it on a Windows 7 client to "access" the servers sessions however that requires the win7 machine is in a domain and you are running the tool as a domain administrator.
-
-The tool is written in batch/bat and can be easly modifyed if needed.
+I made this tool because i was working for a company who had a lot of problems with the windows servere. As default you'll only get license to open 2 "remote desktop connections" at the same time. And because the users clients always would crash or go to sleepmode the session was "disconnected" but not closed, and that counted as a session.
 
 
+The tool is written in batch (bat) So everyone who know DOS pretty much should be able to modyfi it if needed.

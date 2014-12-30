@@ -1,16 +1,5 @@
 @echo off
 rem Written by dmonk 2010
-rem
-rem This tool is made because of the problem with unlicenced windows servers
-rem if you dont have a Terminal Services or Remote Desktop Services License
-rem on your windows based server you are are limited to have only 2 remote desktop sessions
-rem And if you disconnect the wrong way the server will keep a session "running" that session
-rem counts as 1 because it thinks the user still is using it. 
-rem This tool can close those sessions.
-rem
-rem it has been tested on Win2k3 Win2k8R2 and works perfectly. 
-rem 
-rem
 title RDP Session Disconnect by dm0nk
 echo                   RDP Session Disconnect v0.1
 echo =============================================================
